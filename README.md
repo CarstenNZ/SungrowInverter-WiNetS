@@ -1,4 +1,16 @@
-# SungrowInverter
+# WiNet-S variant fork from [SungrowInverter](https://github.com/mvandersteen/SungrowInverter)
+
+The [SungrowInverter](https://github.com/mvandersteen/SungrowInverter) project does all the heavy lifting of data collection for
+different inverter types. It uses the ModBus TCP, but this is not easily available for my 2024 SG10RT and the workaround project
+[SungrowModbusWebClient](https://github.com/bohdan-s/SungrowModbusWebClient) has its own problems.
+
+This project replaces the modbus layer of the original project with direct websocket/http request to the WiNet-S adapter of the
+inverter. It introduces minimal changes to the original project and should be synchronizable with the original project. It works
+for my SG10RT and should work with other inverters supported by the original.
+
+----------
+
+# Original [SungrowInverter](https://github.com/mvandersteen/SungrowInverter)
 
 Provides a way to query Sungrow residential hybrid or string inverters for current state and statistics using ModBus TCP client.
 
