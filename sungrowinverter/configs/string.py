@@ -101,6 +101,7 @@ COUNTRY_CODES = {
     30: "Malaysia",
     170: "Mexico",
     12: "Netherlands",
+    99: "New Zealand",
     38: "Oman",
     16: "Other 50Hz",
     62: "Other 60Hz",
